@@ -1,9 +1,8 @@
 //Main Class
-
+const mysql = require('mysql');
 const express = require('express');
 var sql = express();
 const bodyParser = require('body-parser');
-const mysql = require('mysql');
 const { json } = require('express/lib/response');
 sql.use(bodyParser.json());
 
